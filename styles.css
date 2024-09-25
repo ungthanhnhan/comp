@@ -10,6 +10,14 @@ body {
 .container {
     text-align: center;
 }
+.game-image {
+    width: 200px; /* Kích thước hình ảnh */
+    transition: transform 0.3s; /* Thêm hiệu ứng chuyển tiếp */
+}
+
+.game-image:hover {
+    transform: scale(1.1); /* Phóng to khi hover */
+}
 
 button {
     margin: 10px;

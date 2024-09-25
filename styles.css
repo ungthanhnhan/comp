@@ -10,6 +10,14 @@ body {
 .container {
     text-align: center;
 }
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .game-image {
     width: 200px; /* Kích thước hình ảnh */
     transition: transform 0.3s; /* Thêm hiệu ứng chuyển tiếp */
@@ -17,11 +25,4 @@ body {
 
 .game-image:hover {
     transform: scale(1.1); /* Phóng to khi hover */
-}
-
-button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
 }
